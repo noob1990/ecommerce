@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.language{
+  display: flex;
+  /* justify-content:space-around; */
+  background-color: gray;
+  align-items: center;
+  /* position: relative; */
+
+}
+.div-1{
+  margin-right: auto;
+  padding: 8px;
+}
+.div-2{
+  margin-right: 8px;
+}
+#choices{
+  height: 25px;
+  background-color: gray;
+  border: none;
+  
+}
+
+.input-group input {
+  padding-right: 40px; /* Adjust space for icon */
+}
+.input-group .search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-80%);
+  color: gray; /* Icon color */
+}
